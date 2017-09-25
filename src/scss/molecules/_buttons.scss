@@ -23,9 +23,11 @@ button.btn {
 
   &.btn--style-two {
     background: none;
-    background-color: #7dbc3a;
+    background-color: #fff;
+    border: solid 2px #ea5034;
+    color: #ea5034;
     font-family: $ff-lato;
-    box-shadow: 0 3px #457613;
+    // box-shadow: 0 3px #457613;
 
     @include font-size(16px, 16px, 15px, 14px, 13px);
 
@@ -49,10 +51,6 @@ button.btn {
       background-color: lighten(#304d73, 15%);
       // box-shadow: 0 3px rgba(25, 50, 82, 1);
     }
-  }
-
-  &.shadowed {
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   }
 
   &.form-btn {
