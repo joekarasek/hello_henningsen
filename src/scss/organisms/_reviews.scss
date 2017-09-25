@@ -1,0 +1,38 @@
+#section-reviews {
+  .top {
+    background-color: #dee5eb;
+  }
+
+  .heading__title {
+    padding-top: 30px;
+    color: #2e4a6f;
+  }
+
+  .bottom {
+    background-image: url(/assets/divider-reviews.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    background-color: #e1ecf3;
+    padding-top: 90px;
+  }
+
+  .review-videos {
+    margin-bottom: 25px;
+  }
+
+  .mobile-image img {
+    width: 100%;
+  }
+
+  @include birdeye-footer(#4b382c, false);
+
+  .byline {
+    padding-top: 25px;
+    padding-bottom: 55px;
+  }
+
+  .bf-spn {
+    font-family: $ff-lato;
+  }
+}

@@ -1,0 +1,37 @@
+#section-about {
+  .heading {
+    background-color: #edf0f4;
+    padding: 40px 0 25px;
+
+    &__title {
+      color: #2e4a6f;
+      margin-bottom: 0;
+    }
+  }
+
+  .video-slab {
+    background: #edf0f4;
+    background-image: url(/assets/divider-bio-bg.jpg), linear-gradient(to bottom, #edf0f4, #edf0f4 49%, #fff 50%, #fff);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+  .main {
+    &__title {
+      font-weight: 400;
+      font-family: $ff-raleway;
+      color: #2e4a6f;
+      margin: 15px 0;
+    }
+
+    &__copy {
+      color: #353535;
+      font-size: 16px;
+    }
+  }
+
+  .associations-carousel {
+    padding-bottom: 45px;
+  }
+}

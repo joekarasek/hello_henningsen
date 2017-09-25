@@ -1,0 +1,71 @@
+#section-services {
+  .feature {
+    background-color: #dee5eb;
+    padding-top: 30px;
+
+    &__title {
+      color: #2e4a6f;
+      font-family: $ff-raleway;
+      font-weight: 700;
+      margin: 15px 0;
+    }
+
+    &__copy {
+      color: #4d4d4d;
+    }
+  }
+
+  .main {
+    background-image: url(/assets/divider-reviews-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    padding-top: 55px;
+    padding-bottom: 30px;
+
+    .heading {
+      &__title {
+        color: #2e4a6f;
+        font-family: $ff-raleway;
+        font-weight: 700;
+        margin-bottom: 15px;
+        line-height: 1;
+      }
+
+      &__copy {
+        color: #4d4d4d;
+      }
+    }
+
+    .card {
+      margin-bottom: 30px;
+
+      &__text {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background-color: rgba(255, 255, 255, 0.86);
+        padding: 10px 0;
+      }
+
+      &__title {
+        color: #183163;
+        font-weight: 700;
+        font-family: $ff-raleway;
+        line-height: 1;
+        margin-bottom: 0;
+        padding: 0 30px;
+
+        @include font-size(22px, 19px, 22px, 22px, 20px);
+      }
+
+      &__link {
+        padding: 0 30px;
+        text-decoration: underline !important;
+        color: #f06223;
+        margin-bottom: 0;
+      }
+    }
+  }
+}
