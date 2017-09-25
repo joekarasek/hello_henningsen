@@ -7,6 +7,7 @@ button.btn {
   border: solid 2px #fff;
   padding: 10px 40px;
   text-transform: uppercase;
+  border-radius: 0;
   // box-shadow: 0 3px rgba(179, 77, 6, 1);
 
   @include font-size(17px, 16px, 16px, 15px, 15px);
@@ -21,7 +22,6 @@ button.btn {
   }
 
   &.btn--style-two {
-    margin-top: 30px !important;
     background: none;
     background-color: #7dbc3a;
     font-family: $ff-lato;
@@ -32,22 +32,22 @@ button.btn {
     &:hover,
     &:focus {
       background-color: darken(#7dbc3a, 7%);
-      box-shadow: 0 3px #457613;
+      // box-shadow: 0 3px #457613;
     }
   }
 
   &.btn--style-three {
     background-image: none;
-    background-color: #304d73;
-    color: #fff;
-    box-shadow: 0 3px rgba(25, 50, 82, 1);
+    background-color: #fff;
+    color: #3ec1d5;
+    // box-shadow: 0 3px rgba(25, 50, 82, 1);
 
     @include font-size(16px, 16px, 14px, 14px, 14px);
 
     &:hover,
     &:focus {
       background-color: lighten(#304d73, 15%);
-      box-shadow: 0 3px rgba(25, 50, 82, 1);
+      // box-shadow: 0 3px rgba(25, 50, 82, 1);
     }
   }
 
