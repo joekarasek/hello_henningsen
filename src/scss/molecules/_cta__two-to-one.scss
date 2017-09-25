@@ -2,15 +2,15 @@
 .cta {
   position: relative;
   z-index: 100;
-  background-color: #2e4a6f;
+  background-color: #1082c9;
   background-position: center;
-  padding: 30px 0;
-  border-top: solid 5px #fff;
-  border-bottom: solid 5px #fff;
+  padding: 5px 0 15px;
+  border-top: solid 3px #fff;
+  border-bottom: solid 3px #fff;
 
-  &.shadow {
-    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
-  }
+  // &.shadow {
+  //   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
+  // }
 
   &--background-two {
     background-color: #e4f3e9;
@@ -21,7 +21,7 @@
   }
 
   .flex-wrapper {
-    padding: 10px 0;
+    // padding: 10px 0;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -32,8 +32,8 @@
       align-items: center;
 
       .vertical-break {
-        width: 1px;
-        height: 80px;
+        width: 2px;
+        height: 60px;
         background-color: #fff;
       }
     }
@@ -72,8 +72,8 @@
 
   &__new {
     &-text {
-      font-family: $ff-lato;
-      color: #cde9ef;
+      font-family: $ff-open;
+      color: #fff;
       margin-bottom: 0;
       font-weight: 400;
 
@@ -99,16 +99,12 @@
     }
   }
 
-  //&__btn {
-  //
-  //}
-
   &__existing-patient {
     color: #fff;
     line-height: 1.7;
     font-size: 20px;
     margin-bottom: 0;
-    letter-spacing: 0.9;
+    font-family: $ff-open;
 
     @include font-size(20px, 20px, 16px, 14px, 14px);
 
