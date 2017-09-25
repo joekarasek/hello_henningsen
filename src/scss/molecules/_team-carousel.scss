@@ -1,4 +1,12 @@
 .team-carousel {
+  padding: 25px 0;
+  background-color: rgba(64, 193, 213, 0.2);
+
+  .heading {
+    color: #0778b6;
+    font-weight: 900;
+  }
+
   .owl-carousel .owl-nav [class*=owl-] {
     top: 35%;
   }
