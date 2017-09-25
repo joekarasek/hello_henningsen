@@ -18,10 +18,10 @@
     margin-right: 0;
     border-right: none;
 
-    @include nav-color(#666, 400);
-    @include nav-color(#2e4a6f, 700, 1);
-    @include nav-color(#3caaa8, 700, 2);
-    @include nav-color(#4584d8, 700, 3);
+    @include nav-color(#0a9bce, 400);
+    @include nav-color(#0a9bce, 700, 1);
+    @include nav-color(#0a9bce, 700, 2);
+    @include nav-color(#0a9bce, 700, 3);
   }
 
   #primary-menu-trigger {
@@ -38,7 +38,7 @@
     background-size: contain;
 
     @media screen and (max-width: $width-md) {
-      background-color: #e8fbff;
+      background-color: #fff;
     }
   }
 
@@ -58,7 +58,7 @@
 
   #logo img {
     padding: 2px;
-    // padding-left: 5px;
+    padding-left: 5px;
     max-width: 240px;
   }
 
@@ -95,22 +95,6 @@
       ul li {
         padding-top: 38px;
         padding-bottom: 15px;
-
-        &:first-child:hover,
-        &:nth-child(2):hover,
-        &:nth-child(3):hover,
-        &.current:first-child,
-        &.current:nth-child(2),
-        &.current:nth-child(3) {
-          background-color: #7dbc3a;
-          border-bottom-left-radius: 5px;
-          border-bottom-right-radius: 5px;
-
-          a {
-            color: #fff !important;
-            text-decoration: none !important;
-          }
-        }
       }
     }
   }
@@ -122,8 +106,8 @@
 
   #primary-menu ul li {
     @media screen and (max-width: $width-md) {
-      border-top: 1px solid #06b7d7;
-      background-color: #e8fbff;
+      border-top: 1px solid #0a9bce;
+      background-color: #fff;
       padding-left: 30px;
 
       &:last-child {
