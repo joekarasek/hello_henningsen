@@ -1,71 +1,61 @@
 #section-services {
+  .right-align {
+    text-align: right;
+  }
+
+  .card__link {
+    text-decoration: underline !important;
+    font-style: italic;
+    color: #f06223;
+    margin-bottom: 0;
+    text-align: right;
+    font-size: 17px;
+
+    @include font-size(17px, 16px, 14px, 15px, 14px);
+  }
+
+  .card__text {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.86);
+    padding: 10px 0;
+  }
+
   .feature {
-    background-color: #dee5eb;
-    padding-top: 30px;
+    background-color: #fff;
+    padding-top: 20px;
 
     &__title {
-      color: #2e4a6f;
+      color: #076dad;
       font-family: $ff-raleway;
-      font-weight: 700;
-      margin: 15px 0;
-    }
+      font-weight: 900;
+      margin-bottom: 0;
+      letter-spacing: 1.5px;
+      padding-left: 5px;
 
-    &__copy {
-      color: #4d4d4d;
+      @include font-size(22px, 19px, 16px, 22px, 20px);
     }
   }
 
   .main {
-    background-image: url(/assets/divider-reviews-bg.jpg);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: contain;
-    padding-top: 55px;
     padding-bottom: 30px;
+  }
 
-    .heading {
-      &__title {
-        color: #2e4a6f;
-        font-family: $ff-raleway;
-        font-weight: 700;
-        margin-bottom: 15px;
-        line-height: 1;
-      }
+  .card {
+    margin-bottom: 20px;
 
-      &__copy {
-        color: #4d4d4d;
-      }
-    }
+    &__title {
+      color: #076dad;
+      font-weight: 900;
+      font-family: $ff-raleway;
+      line-height: 1;
+      margin-bottom: 0;
+      letter-spacing: 1.5px;
+      padding-left: 5px;
 
-    .card {
-      margin-bottom: 30px;
-
-      &__text {
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        left: 0;
-        background-color: rgba(255, 255, 255, 0.86);
-        padding: 10px 0;
-      }
-
-      &__title {
-        color: #183163;
-        font-weight: 700;
-        font-family: $ff-raleway;
-        line-height: 1;
-        margin-bottom: 0;
-        padding: 0 30px;
-
-        @include font-size(22px, 19px, 22px, 22px, 20px);
-      }
-
-      &__link {
-        padding: 0 30px;
-        text-decoration: underline !important;
-        color: #f06223;
-        margin-bottom: 0;
-      }
+      @include font-size(22px, 19px, 22px, 22px, 20px);
     }
   }
 }

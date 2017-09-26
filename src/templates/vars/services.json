@@ -2,19 +2,39 @@
   "services":[
     {
       "featured": false,
-      "title": "Family Care",
-      "titleMobil": "Family Care",
-      "titleFull": "Family Care",
-      "image": "family-care",
-      "modalTarget": "family",
-      "text": ["From toddlers to the elderly, our skilled dental team is familiar with the unique needs of every patient, no matter their age. Our goal is to help them develop great oral habits that will last them a lifetime.",
-        "Join us today and discover how our practice can help treat your entire family."]
+      "title": "Dental Implants",
+       "titleMobil": "Implants",
+      "titleFull": "Dental Implants",
+      "image": "implants",
+      "modalTarget": "implants",
+      "text": ["Dental implants are a great option for replacing missing teeth, improving chewing ability, eliminating bridges, and replacing dentures.",
+        
+       "Several implants may provide a base for a series of artificial teeth known as a fixed bridge. Implants can even be used to secure a full set of removable dentures for people who have no remaining natural teeth."]
+    },
+    {
+      "featured": false,
+      "title": "Veneers",
+      "titleMobil": "Veneers",
+      "titleFull": "Veneers",
+      "image": "veneers",
+      "modalTarget": "veneers",
+      "text": ["n/a."]
+    },
+    {
+      "featured": false,
+      "title": "CEREC",
+      "titleMobil": "CEREC",
+      "titleFull": "CEREC® One-Visit Crowns",
+      "image": "cerec",
+      "modalTarget": "crowns",
+      "text": ["Protect and keep badly decayed or fractured teeth while maintaining a beautiful smile. Made to perfectly match the shape and shade of your other teeth, they’re durable, strong, and undetectable.",
+        "Crowns should be placed before the tooth is so decayed that it may fracture. This can often help prevent the expense of root canal therapy in the future. If a tooth is too damaged to have a crown applied, a porcelain bridge may be a good alternative."]
     },
     {
       "featured": false,
       "title": "Smile Whitening",
-      "titleMobil": "Smile-Whitening",
-      "titleFull": "Smile-Whitening",
+      "titleMobil": "Whitening",
+      "titleFull": "Smile Whitening",
       "image": "whitening",
       "modalTarget": "smile",
       "text": ["Many everyday things like coffee, tea and wine can significantly dull teeth. Smile-whitening enables us to significantly brighten your smile for that dazzling white smile you deserve.",
@@ -22,59 +42,23 @@
     },
     {
       "featured": false,
-      "title": "Crowns & Bridges",
-      "titleMobil": "Porcelain Crowns & Bridges",
-      "titleFull": "Porcelain Crowns & Bridges",
-      "image": "crowns",
-      "modalTarget": "crowns",
-      "text": ["Protect and keep badly decayed or fractured teeth while maintaining a beautiful smile. Made to perfectly match the shape and shade of your other teeth, they’re durable, strong, and undetectable.",
-        "Crowns should be placed before the tooth is so decayed that it may fracture. This can often help prevent the expense of root canal therapy in the future. If a tooth is too damaged to have a crown applied, a porcelain bridge may be a good alternative."]
+      "title": "Digital X-Rays",
+      "titleMobil": "Digital X-Rays",
+      "titleFull": "Digital X-Rays (or Digital Radiography)",
+      "image": "digital-xrays",
+      "modalTarget": "digital-xrays",
+      "text": ["Our use of digital x-ray technology reduces your radiation exposure and eliminates the use of chemicals. It’s better for you and the environment.",
+      "It's also easy for you to see what the doctor sees. Your digital x-ray can be seen on a computer screen located next to your dental chair. This helps you understand your needs and make informed choices about your treatment."]
     },
     {
       "featured": false,
-      "title": "Clear Orthodontics",
-      "titleMobil": "Invisalign® Orthodontics",
+      "title": "Invisalign",
+      "titleMobil": "Invisalign",
       "titleFull": "Invisalign® Orthodontics",
-      "image": "clear-orthodontics",
+      "image": "invisalign",
       "modalTarget": "ortho",
       "text": ["These “invisible” aligners are the latest in orthodontic technology for adults and teens. Straight teeth and a revitalized smile no longer need to come from a mouth full of unattractive wire and bracket braces. Enhancing self-esteem and physical confidence, invisible braces offer an esthetic and barely visible alternative to conventional wire/bracket braces.",
         "Get the smile you've always wanted with Invisalign® Orthodontics."]
-    },
-    {
-      "featured": false,
-      "title": "Preventive Care",
-      "titleMobil": "Preventive Care",
-      "titleFull": "Preventive Care",
-      "image": "preventive-care",
-      "modalTarget": "prevent",
-      "text": ["By actively preventing disease and decay through regular home care, professional dental cleanings and regular exams, you will maintain a healthy, beautiful smile for life."]
-    },
-    {
-      "featured": false,
-      "title": "Mercury Free",
-      "titleMobil": "Mercury-Free Restorations",
-      "titleFull": "Mercury-Free Restorations",
-      "image": "mercury-freee",
-      "modalTarget": "mercury",
-      "text": ["The common silver filling contains mercury. Dr. Henningsen uses the highest-quality biocompatible, tooth-colored restorations to create healthy, beautiful smiles. Since the composite material adheres directly to the tooth enamel, less preparation of the tooth is required before using it. This means it is more durable and provides a more natural-looking result."]
-    },
-    {
-      "featured": false,
-      "title": "Periodontal Therapy",
-      "titleMobil": "Periodontal Therapy",
-      "titleFull": "Periodontal Therapy",
-      "image": "periodontal",
-      "modalTarget": "perio",
-      "text": ["Gum disease is treated by carefully removing the bacteria and substances that form in the pockets around the teeth. The removal of this material occurs on a microscopic level and requires great skill. Our dental team has had advanced training to effectively remove all of the bacteria."]
-    },
-    {
-      "featured": false,
-      "title": "Cosmetic Dentures",
-      "titleMobil": "Cosmetic Dentures",
-      "titleFull": "Cosmetic Dentures",
-      "image": "dentures",
-      "modalTarget": "dentures",
-      "text": ["A well made denture is not only comfortable and functions properly; it also allows the wearer to smile with confidence, knowing that their smile is no different than it would be with natural teeth. Creating a cosmetic denture is really an art in the hands of a skilled dentist like Dr. Henningsen."]
     }
   ]
 }
