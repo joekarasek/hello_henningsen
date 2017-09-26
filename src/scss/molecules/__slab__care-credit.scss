@@ -1,19 +1,31 @@
 .section-care-credit-slab {
-  background-color: #dee5eb;
-  padding: 50px 0;
+  background-color: #e7fcff;
+  padding: 30px 0;
+  text-align: center;
 
-  .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+  .care-credit-slab {
+    &__title {
+      margin-bottom: 0;
+      color: #48c6da;
+      font-family: $ff-mont;
+      font-weight: 900;
+    }
 
-  .text {
-    color: #282828;
-    font-family: $ff-open;
-    margin-bottom: 0;
-    padding-right: 25px;
+    &__copy {
+      margin-bottom: 0;
+      font-style: italic;
+      color: #4e4e4e;
+      font-family: $ff-open;
+      font-size: 20px;
+    }
 
-    @include font-size(24px, 23px, 23px, 19px, 16px);
+    &__logo {
+      margin: 15px;
+    }
+
+    &__btn {
+      margin: 15px;
+      border: solid 2px #48c6da;
+    }
   }
 }
