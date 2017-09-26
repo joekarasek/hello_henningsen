@@ -33,7 +33,7 @@ button.btn {
 
     &:hover,
     &:focus {
-      background-color: darken(#7dbc3a, 7%);
+      background-color: lighten(#ea5034, 40%);
       // box-shadow: 0 3px #457613;
     }
   }

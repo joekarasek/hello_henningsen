@@ -17,6 +17,17 @@
     }
   }
 
+  .slide1-svg-text {
+    width: 400px;
+    padding-left: 20px;
+
+    @media (min-width: 1200px) {
+      width: 1000px;
+      margin-left: -40px;
+      padding-left: 20px;
+    }
+  }
+
   .slide1 {
     .flex-wrap {
       display: flex;
@@ -39,13 +50,16 @@
     .slide__image {
       padding-bottom: 20px;
     }
-
-    .btn {
-      margin-left: 15px;
-    }
   }
 
   .slide3 {
+    .slide__image {
+      width: 100%;
+      padding-bottom: 20px;
+    }
+  }
+
+  .slide4 {
     .slide__image {
       padding-bottom: 20px;
     }
