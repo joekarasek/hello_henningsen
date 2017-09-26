@@ -1,5 +1,6 @@
 .tour {
-  background-image: url(/assets/tour-bg.jpg);
+  // background-image: url(/assets/tour-bg.jpg);
+  background-color: #e7fcff;
   background-size: cover;
   background-position: top center;
   color: #fff;
@@ -16,7 +17,7 @@
     margin-bottom: 25px;
 
     &__title {
-      color: #fff;
+      color: #48c6da;
       margin-bottom: 10px;
       font-weight: 700;
     }

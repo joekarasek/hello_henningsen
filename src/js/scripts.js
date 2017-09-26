@@ -16,7 +16,7 @@
   HelloWorldDevsTysonSteele.tourCarousel('.js-tour-carousel', {
     autoplay: true,
     autoplayTimeout: 10000,
-    items: 3,
+    items: 1,
     margin: 40,
     navText: [
       '<img src="assets/tour-left.png">',
