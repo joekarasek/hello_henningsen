@@ -61,7 +61,7 @@
   }
 
   &__map-link {
-    color: #ff7a10;
+    color: #25a1b2;
     text-decoration: underline;
     font-size: 20px;
     // letter-spacing: 1px;
@@ -140,11 +140,10 @@
     }
 
     p {
-      color: #000;
-      font-size: 24px;
+      color: #444;
       line-height: 1;
       margin: 0 auto;
-      font-family: $ff-lato;
+      font-family: $ff-open;
     }
   }
 }
