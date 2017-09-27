@@ -15,42 +15,41 @@
     }
     %}
 
-    {# {% include 'organisms/marquee.twig' %} #}
+    {% include 'organisms/marquee.twig' %}
 
     <!-- Content
   ============================================= -->
 
     <div id="content" >
 
-        {# {% include 'molecules/cta__two-to-one.twig' with {
-            id: 'cta-one',
-            existingPatients: true
-        } %} #}
+        {% include 'molecules/cta__two-to-one.twig' with {
+        id: 'cta-one',
+        existingPatients: true
+        } %}
 
-        {# {% include 'organisms/about.twig' %} #}
+        {% include 'organisms/about.twig' %}
 
-        {# {% include 'molecules/team__carousel.twig' %} #}
+        {% include 'molecules/team__carousel.twig' %}
 
-        {# {% include 'organisms/reviews.twig' %} #}
+        {% include 'organisms/reviews.twig' %}
 
-        {# {% include 'molecules/slab__healthgrades.twig' %} #}
 
-        {# {% include 'organisms/insurance.twig' %} #}
+        {% include 'organisms/insurance.twig' %}
 
         {% include 'molecules/cta__two-to-one.twig' with {
-            id: 'cta-two',
-            existingPatients: true
+        id: 'cta-two',
+        existingPatients: true
         } %}
 
         {% include 'organisms/smile-makeovers.twig' %}
 
         {% include 'organisms/services.twig' %}
 
-        {# {% include 'organisms/tour.twig' %} #}
-        
-        {# {% include 'organisms/forms.twig' %} #}
+        {% include 'organisms/tour.twig' %}
 
-        {# {% include 'organisms/location.twig' %} #}
+        {% include 'organisms/forms.twig' %}
+
+        {% include 'organisms/location.twig' %}
 
     </div>
 

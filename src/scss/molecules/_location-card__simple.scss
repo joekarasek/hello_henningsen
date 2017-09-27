@@ -72,7 +72,7 @@
   }
 
   &__new-patient-text {
-    color: #000;
+    color: #444;
     font-size: 24px;
     margin-bottom: 0;
     line-height: 1;
@@ -82,7 +82,7 @@
 
   &__new-patient-number {
     display: block;
-    font-weight: 900;
+    font-weight: 400;
     color: #2e4a6f;
     font-family: $ff-lato;
     margin-top: 5px;

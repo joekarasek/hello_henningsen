@@ -28,7 +28,7 @@
     font-size: 30px;
     pointer-events: auto;
     float: left;
-    top: 15px;
+    top: 25px;
   }
 
   #header-wrap {
@@ -59,14 +59,14 @@
   #logo img {
     padding: 2px;
     padding-left: 5px;
-    max-width: 240px;
+    max-width: 350px;
   }
 
   @media screen and (max-width: $width-md) {
     #logo {
       a {
         text-align: right;
-        margin-left: 30px;
+        margin-left: 10px;
         margin-right: auto;
         padding-right: 30px;
       }
@@ -74,7 +74,7 @@
       img {
         margin-right: auto;
         padding: $spacing-xs;
-        max-width: 240px;
+        max-width: 250px;
       }
     }
 
@@ -147,11 +147,11 @@
 }
 
 #logo img {
-  height: 75px !important;
+  height: 90px !important;
   transition: height 0.4s ease, opacity 0.3s ease;
 
   @media (max-width: $width-md) {
-    height: 75px !important;
+    height: 90px !important;
   }
 }
 
@@ -162,5 +162,5 @@
 }
 
 #header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) #logo img {
-  height: 75px !important;
+  height: 90px !important;
 }

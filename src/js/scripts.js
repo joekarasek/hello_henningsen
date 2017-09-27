@@ -108,7 +108,7 @@
         autoplay: false
       },
       992: {
-        items: 4,
+        items: 3,
         autoplay: false
       }
     }
@@ -116,10 +116,7 @@
   HelloWorldDevsTysonSteele.pyramidCarousel('.js-team-carousel', {
     items: 1,
     autoplay: true,
-    navText: [
-      '<img src="assets/arrow-left.png">',
-      '<img src="assets/right-arrow.png">'
-    ],
+    nav: false,
     responsive: {
       550: {
         items: 2

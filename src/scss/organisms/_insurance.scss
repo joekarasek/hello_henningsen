@@ -49,8 +49,16 @@
   .insurance__copy {
     color: $c-copy;
     list-style-type: circle;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     line-height: 1.2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    img {
+      float: left;
+      padding-right: 5px;
+    }
 
     @include font-size(18px, 17px, 15px, 16px, 14px);
 
