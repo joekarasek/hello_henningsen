@@ -8,6 +8,20 @@
   }
 
   .owl-carousel .owl-nav [class*=owl-] {
-    top: 35%;
+    top: 45%;
+  }
+
+  .owl-carousel .owl-nav [class*=owl-],
+  .owl-carousel:hover .owl-nav .owl-next {
+    opacity: 1;
+  }
+
+  .full-width-wrapper {
+    position: relative;
+  }
+
+  .team--full-width,
+  .owl-carousel {
+    position: static !important;
   }
 }

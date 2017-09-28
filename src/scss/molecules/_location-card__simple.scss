@@ -78,11 +78,13 @@
     line-height: 1;
     font-family: $ff-open;
     letter-spacing: -0.97px;
+
+    @include font-size(19px, 18px, 17px, 16px, 16px);
   }
 
   &__new-patient-number {
     display: block;
-    font-weight: 400;
+    font-weight: 900;
     color: #2e4a6f;
     font-family: $ff-lato;
     margin-top: 5px;
@@ -102,8 +104,9 @@
     margin-top: 15px;
     line-height: 1;
     font-family: $ff-open;
+    padding-bottom: 15px;
 
-    @include font-size(18px, 18px, 17px, 16px, 16px);
+    @include font-size(19px, 18px, 17px, 16px, 16px);
   }
 
   &__existing-patient-number {
@@ -119,11 +122,10 @@
   }
 
   &__welcoming-patients {
-    color: #000;
-    font-weight: 400;
-    margin-bottom: 10px;
-    font-size: 24px;
-    letter-spacing: -0.93px;
+    color: #2f1d0f;
+    margin-top: 15px;
+    line-height: 1;
+    font-family: $ff-open;
   }
 
   .hours-table {

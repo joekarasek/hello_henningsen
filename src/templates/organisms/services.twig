@@ -8,10 +8,10 @@
                     <div class="card__text">
                         <div class="col-xs-7 col-sm-8">
                             <h3 class="feature__title hidden-xs">Cosmetic Dentures</h3>
-                            <h3 class="feature__title hidden-sm hidden-md hidden-lg"> Dentures</h3>
+                            <h3 class="feature__title hidden-sm hidden-md hidden-lg">Dentures</h3>
                         </div>
                         <div class="col-xs-3">
-                            <p class="card__link">Learn More</p>
+                            <p class="card__link" data-toggle="modal" data-target="#denturesModal" >Learn More</p>
                         </div>
                     </div>
                 </div>
@@ -24,7 +24,9 @@
                             <h3 class="feature__title hidden-sm hidden-md hidden-lg">Treat Apnea</h3>
                         </div>
                         <div class="col-xs-3">
-                            <p class="card__link">Learn More</p>
+                            <p class="card__link" data-toggle="modal" data-target="#apneaModal" >Learn More</p>
+
+
                         </div>
                     </div>
                  </div>
@@ -53,5 +55,38 @@
     </div>
 
     {% include 'molecules/services__modals.twig' %}
+
+<!-- Dentures Modal -->
+<div class="modal fade" id="denturesModal" tabindex="-1" role="dialog" aria-labelledby="denturesModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="denturesModalLabel">Cosmetic Dentures</h4>
+            </div>
+            <div class="modal-body">
+                <p class="heading__copy-modal left-align">A well made denture is not only comfortable and functions properly; it also allows the wearer to smile with confidence, knowing that their smile is no different than it would be with natural teeth. Creating a cosmetic denture is really an art in the hands of a skilled dentist like Dr. Henningsen.</p>
+                <a href="http://www.jeffersoncity-cosmeticdentures.com/" target="_blank" class="btn btn--style-two">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Apnea Modal -->
+    <div class="modal fade" id="apneaModal" tabindex="-1" role="dialog" aria-labelledby="apneaModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="apneaModalLabel">Sleep Apnea Treatment</h4>
+                </div>
+                <div class="modal-body">
+                    <p class="heading__copy-modal left-align">Obstructive sleep apnea occurs when the airway completely collapses, blocking airflow into the lungs. The harder one tries to breathe, the tighter the airway seals. This airway obstruction persists until the brain partially awakens the person, unconsciously closing the jaw and returning the tongue and throat to a normal position.</p>
+                    <p class="heading__copy-modal left-align">We offer effective, nonsurgical relief from sleep apnea and other sleep-related disorders—including snoring. Ask us how you can get the restful, healthy sleep you’ve been missing.</p>
+                    <a href="http://www.jeffersoncity-sleepapneadentist.com/" target="_blank" class="btn btn--style-two">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </section>
