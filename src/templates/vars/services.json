@@ -18,7 +18,8 @@
       "titleFull": "Veneers",
       "image": "veneers",
       "modalTarget": "veneers",
-      "text": ["n/a."]
+      "text": ["Veneers are very thin porcelain pieces that are custom made to adhere directly to the front of teeth without grinding or shaving. Transform your smile without drilling on your natural teeth!",
+      "In the hands of a highly skilled dentist, porcelain laminates can provide you with an incredibly natural, beautiful smile. They are virtually undetectable and can dramatically improve your appearance. They are durable and long-lasting when compared to other cosmetic treatments."]
     },
     {
       "featured": false,
@@ -44,7 +45,7 @@
       "featured": false,
       "title": "Digital X-Rays",
       "titleMobil": "Digital X-Rays",
-      "titleFull": "Digital X-Rays (or Digital Radiography)",
+      "titleFull": "Digital X-Rays",
       "image": "digital-xrays",
       "modalTarget": "digital-xrays",
       "text": ["Our use of digital x-ray technology reduces your radiation exposure and eliminates the use of chemicals. It’s better for you and the environment.",

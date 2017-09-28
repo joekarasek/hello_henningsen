@@ -116,7 +116,12 @@
   HelloWorldDevsTysonSteele.pyramidCarousel('.js-team-carousel', {
     items: 1,
     autoplay: true,
-    nav: false,
+    autoplayHoverPause:false,
+    autoplaySpeed: 500,
+    navText: [
+      '<img src="assets/tour-left.png">',
+      '<img src="assets/tour-right.png">'
+    ],
     responsive: {
       550: {
         items: 2
@@ -125,7 +130,8 @@
         items: 3
       },
       992: {
-        items: 4
+        items: 4,
+        nav: false
       }
     },
     margin: 30

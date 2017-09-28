@@ -104,7 +104,8 @@
     line-height: 1.7;
     font-size: 20px;
     margin-bottom: 0;
-    font-family: $ff-open;
+    font-family: $ff-lato;
+    letter-spacing: 2.5px;
 
     @include font-size(20px, 20px, 16px, 14px, 14px);
 
