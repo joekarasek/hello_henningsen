@@ -130,8 +130,7 @@
         items: 3
       },
       992: {
-        items: 4,
-        nav: false
+        items: 4
       }
     },
     margin: 30
