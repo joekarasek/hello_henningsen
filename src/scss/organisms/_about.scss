@@ -29,12 +29,12 @@
       margin-bottom: 10px;
       padding-top: 20px;
 
-      @include font-size(36px, 28px, 26px, 26px, 24px);
+      @include font-size(36px, 28px, 26px, 26px, 21px);
 
       &--title {
         color: #48c6da;
 
-        @include font-size(33px, 26px, 24px, 24px, 22px);
+        @include font-size(33px, 26px, 24px, 24px, 18px);
       }
     }
 
